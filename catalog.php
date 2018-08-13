@@ -1,3 +1,6 @@
+<?php 
+require 'config.php';
+?>
 <!DOCTYPE html>
 <html lang=ru style=height:100%>
 <head>
@@ -7,12 +10,10 @@
 <meta name=keywords content="купить промышленную электронику оборудование, цена, энкодер" />
 <meta name=description content="Оборудование на продажу. Продаём промышленную электронику после ремонта" />
 <link href=css/style.css rel=stylesheet>
-
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-
 <script src="js/jquery-1.11.0.min.js"></script>
 <link href="css/style-watch.css" rel="stylesheet" type="text/css" media="all" />	
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1">  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
@@ -27,7 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div class=container style=position:relative>
 <header class=header>
-<div class=h-logo><a href=https://www.remontservo.ru/><img src=img/logo1.png alt=KERNEL></a></div>
+<div class=h-logo><a href=https://www.remontservo.ru/><img src=images/logo1.png alt=KERNEL></a></div>
 <div class=h-title>
 <h2 style="margin:1.8em 0 .8em;font-size:15px;color:#ff7e00;font-weight:bold">РЕМОНТ СЕРВОДВИГАТЕЛЕЙ</h2>
 <h2>Ремонт настройка перемотка серводвигателей энкодеров резольверов сервомоторов сервоприводов</h2>
@@ -56,11 +57,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </nav>
 <main class=content style="background-color: #E9F4C8;">
 
-
-	<!--bottom-header-->
 	<div class="header-bottom" >
 		<div class="container">
-		<!--	<div class="header" style="background: red; max-height: 5em; margin-left: -14px; max-width: 100%;"> -->
+			<div class="header" style="background: none;">
 				<div class="col-md-9 header-left">
 				<div class="top-nav">
 					<ul class="memenu skyblue"><li class="active"><a href="index.html">Общий список</a></li>
@@ -208,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="clearfix"> </div>
-<!--			</div>  --> 
+			</div>
 		</div>
 	</div>
 	<!--bottom-header-->
@@ -217,9 +216,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<a href="index.html"><h1>Ремонтируем промышленное оборудование и электронику</h1></a>
 	</div>
 	
-	<!--about-starts-->
-	<div class="about" style="padding:0;"> 
-		<div class="container" style="max-width: 100%">
+	
+	<div class="about"> 
+		<div class="container">
 			<div class="about-top grid-1">
 				<div class="col-md-4 about-left">
 					<figure class="effect-bubba">
@@ -255,230 +254,63 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--about-end-->
 	<!--product-starts-->
 	<div class="product"> 
-		<div class="container" style="max-width: 100%;">
+		<div class="container">
 			<div class="product-top">
 				<div class="product-one">
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0021-b078.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0021-B17</h3>
-								<p>A06B-0021-B17</p>
-								<h4> <span class=" item_price">FANUC</span></h4>            
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0021-b078.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0021-B078</h3>
-								<p>A06B-0021-B078</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0022-b078.jpg"  alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0022-B078</h3>
-								<p>A06B-0022-B078</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0023-b078.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC a06b-0023-B078</h3>
-								<p>a06b-0023-B078</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="product-one">
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0024.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC a06b-0024-B078</h3>
-								<p>a06b-0024-B078</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075</h3>
-								<p>A06B-0031-B075</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075#7008</h3>
-								<p>A06B-0031-B075#7008</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-					<div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075#0019</h3>
-								<p>A06B-0031-B075#0019</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-                    
-                    <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075#7076</h3>
-								<p>A06B-0031-B075#7076</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                    <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075#7000</h3>
-								<p>A06B-0031-B075#7000</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                    <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B075/0008</h3>
-								<p>A06B-0031-B075/0008</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                      <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B077</h3>
-								<p>A06B-0031-B077</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                     <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B077</h3>
-								<p>A06B-0031-B077</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                    <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B077#0008</h3>
-								<p>A06B-0031-B077#0008</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
-                    
-                    <div class="col-md-3 product-left">
-						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="img/electronica/fanuc_a06b-0031-b075.jpg" alt="" /></a>
-							<div class="product-bottom">
-								<h3>CЕРВОДВИГАТЕЛЬ FANUC A06B-0031-B077#7008</h3>
-								<p>06B-0031-B077#7008</p>
-								<h4> <span class=" item_price">FANUC</span></h4>
-							</div>
-							<div class="srch">
-								<span>-50%</span>
-							</div>
-						</div>
-					</div>
                     
                     
-                    
-				</div>					
-			</div>
-		</div>
-	</div>
-	<!--product-end-->	
+<?php
+if(empty($_GET['id'])) {
+
+$query = $db->query("SELECT * FROM products");
+if($query->num_rows > 0){
+    while($row = $query->fetch_assoc()){
+								echo '
+								<div class="col-md-4 product-left p-left">
+								<div class="product-main simpleCart_shelfItem">
+									<a href="?id='.$row["id"].'" class="mask"><img class="img-responsive zoom-img" src=".'.$row["imgFile"].'.png" alt="" /></a>
+									<div class="product-bottom">
+										<h3>'.$row["name"].'</h3>
+										<p>'.$row["manefacter"].'</p> 
+										<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">'.$row["price"].' руб.</span></h4>
+									</div>
+									<div class="srch srch1">
+										<span>-'.$row["sale"].'%</span>
+									</div>
+								</div>
+							</div>
+								';
+
+} } } else {
+
+$query = $db->query("SELECT * FROM products where id = '".$_GET['id']."'");
+if($query->num_rows > 0){
+    while($row = $query->fetch_assoc()){
+								echo '
+								<div class="col-md-4 product-left p-left">
+								<div class="product-main simpleCart_shelfItem">
+									<img class="img-responsive zoom-img" src=".'.$row["imgFile"].'.png" alt="" />
+									<div class="product-bottom">
+										<h3>'.$row["name"].'</h3>
+										<p>'.$row["manefacter"].'</p> 
+										<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">'.$row["price"].' руб.</span></h4>
+									</div>
+									<div class="srch srch1">
+										<span>-'.$row["sale"].'%</span>
+									</div>
+								</div>
+							</div>
+								';
+
+} }
+
+} ?>
 
 </main>
 <footer class=foot style=position:absolute;width:100%>
-<div class=f-logo-l><img src=img/logo3.png alt=kerneltlt></div>
+<div class=f-logo-l><img src=images/logo3.png alt=kerneltlt></div>
 <div class=f-title>ООО "КЕРНЕЛ" Ремонт промышленной электроники</div>
-<div class=f-logo-r><img src=img/logo3.png alt=kerneltlt></div>
+<div class=f-logo-r><img src=images/logo3.png alt=kerneltlt></div>
 </footer>
 </div>
     <!-- yandex metrica begin -->

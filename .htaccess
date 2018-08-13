@@ -1,5 +1,7 @@
 # Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
 RewriteEngine On
+RewriteBase /sql/
+RewriteRule ^(.*)\.html$ $1.php [L] 
 RewriteCond %{HTTP_HOST} ^remontservo.ru
 RewriteRule (.*) http://www.remontservo.ru/$1 [R=301,L]
 ErrorDocument 404 /404.html
